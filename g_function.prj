@@ -1,0 +1,3 @@
+vhdl work "s2ROM.vhd"
+vhdl work "s1ROM.vhd"
+vhdl work "g_function.vhd"

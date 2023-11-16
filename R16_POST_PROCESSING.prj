@@ -1,0 +1,7 @@
+vhdl work "s2ROM.vhd"
+vhdl work "s1ROM.vhd"
+vhdl work "g_function.vhd"
+vhdl work "adder32bit.vhd"
+vhdl work "regL.vhd"
+vhdl work "f_function.vhd"
+vhdl work "R16_POST_PROCESSING.vhd"

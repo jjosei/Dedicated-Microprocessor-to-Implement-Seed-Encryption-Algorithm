@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/jesse/seed_encryption_fpga_implementation/top_level_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="top_level" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="44" />
+   <wvobject fp_name="/top_level/input_text" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_text[127:0]</obj_property>
+      <obj_property name="ObjectShortName">input_text[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/input_key" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">input_key[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider67" type="divider">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit1/KRAM/input" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input[63:0]</obj_property>
+      <obj_property name="ObjectShortName">input[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit1/KRAM/read_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_address[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_address[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit1/KRAM/write_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_address[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_address[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit1/KRAM/write_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_in</obj_property>
+      <obj_property name="ObjectShortName">write_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit1/KRAM/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit1/KRAM/read_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit1/KRAM/ram1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram1[0:31]</obj_property>
+      <obj_property name="ObjectShortName">ram1[0:31]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">ram1[0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">ram1[1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">ram1[2]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">ram1[3]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">ram1[4]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">ram1[5]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">ram1[6]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">ram1[7]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">ram1[8]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">ram1[9]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">ram1[10]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">ram1[11]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">ram1[12]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">ram1[13]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">ram1[14]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">ram1[15]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">ram1[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">ram1[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">ram1[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">ram1[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">ram1[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">ram1[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">ram1[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">ram1[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">ram1[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">ram1[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">ram1[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">ram1[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">ram1[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">ram1[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">ram1[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level/unit1/KRAM/ram1[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">ram1[31]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider68" type="divider">
+      <obj_property name="label">KEY GEN STATES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit2/ps" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ps</obj_property>
+      <obj_property name="ObjectShortName">ps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit2/ns" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ns</obj_property>
+      <obj_property name="ObjectShortName">ns</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider69" type="divider">
+      <obj_property name="label">ENCRYP STATES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit3/ps" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ps</obj_property>
+      <obj_property name="ObjectShortName">ps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit3/ns" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ns</obj_property>
+      <obj_property name="ObjectShortName">ns</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider70" type="divider">
+      <obj_property name="label">END</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit1/l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">l[63:0]</obj_property>
+      <obj_property name="ObjectShortName">l[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/unit1/r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/output_text" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_text[127:0]</obj_property>
+      <obj_property name="ObjectShortName">output_text[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/muxsel2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">muxsel2</obj_property>
+      <obj_property name="ObjectShortName">muxsel2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/loadk01" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadk01</obj_property>
+      <obj_property name="ObjectShortName">loadk01</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/loadk23" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadk23</obj_property>
+      <obj_property name="ObjectShortName">loadk23</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/write_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_in</obj_property>
+      <obj_property name="ObjectShortName">write_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/countened" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">countened</obj_property>
+      <obj_property name="ObjectShortName">countened</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/rsted" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rsted</obj_property>
+      <obj_property name="ObjectShortName">rsted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/preseted" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">preseted</obj_property>
+      <obj_property name="ObjectShortName">preseted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/countenkg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">countenkg</obj_property>
+      <obj_property name="ObjectShortName">countenkg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/rstkg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstkg</obj_property>
+      <obj_property name="ObjectShortName">rstkg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/presetkg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">presetkg</obj_property>
+      <obj_property name="ObjectShortName">presetkg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/startenc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">startenc</obj_property>
+      <obj_property name="ObjectShortName">startenc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/encdeckg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">encdeckg</obj_property>
+      <obj_property name="ObjectShortName">encdeckg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/encdeced" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">encdeced</obj_property>
+      <obj_property name="ObjectShortName">encdeced</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/muxsel1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">muxsel1</obj_property>
+      <obj_property name="ObjectShortName">muxsel1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/loadt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadt</obj_property>
+      <obj_property name="ObjectShortName">loadt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/loadpp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadpp</obj_property>
+      <obj_property name="ObjectShortName">loadpp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/outen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">outen</obj_property>
+      <obj_property name="ObjectShortName">outen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/inteq16" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inteq16</obj_property>
+      <obj_property name="ObjectShortName">inteq16</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/inteq15" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inteq15</obj_property>
+      <obj_property name="ObjectShortName">inteq15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/inteq0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inteq0</obj_property>
+      <obj_property name="ObjectShortName">inteq0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/inteq0ed" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inteq0ed</obj_property>
+      <obj_property name="ObjectShortName">inteq0ed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level/i0nteq0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i0nteq0</obj_property>
+      <obj_property name="ObjectShortName">i0nteq0</obj_property>
+   </wvobject>
+</wave_config>
